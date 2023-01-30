@@ -42,3 +42,14 @@ spanElement[2].innerText = "iNeuron Intelligence Pvt Ltd";
 let image = document.querySelector(".hero-right-section img");
 image.src = "https://hiteshchoudhary.com/static/a8d73d1aac4c79e9bb689640e6090367/2eaab/person-image.jpg";
 ```
+
+### Task 5 : Add a button named "Support Me" below the avatar
+
+![image](https://user-images.githubusercontent.com/48837703/215531933-e9e4fc68-9161-4124-8cbf-94dbcf4f782d.png)
+
+```
+let btn = document.querySelector(".hero-right-section-btns");
+let btnSupport = document.createElement("button");
+btnSupport.innerText = "Support Me";
+btn.appendChild(btnSupport);
+```
