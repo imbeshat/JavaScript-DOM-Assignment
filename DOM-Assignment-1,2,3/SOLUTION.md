@@ -56,7 +56,7 @@ btn.appendChild(btnSupport);
 
 ## DOM Assignment 2
 
-### Task 1 : Change the color of accordion and their paragraphs
+### Task 1 : Change the color of accordian and their paragraphs
 
 ![image](https://user-images.githubusercontent.com/48837703/215551263-1b8a8286-6a6e-4b0a-99a1-8d5e3be21419.png)
 
@@ -69,4 +69,24 @@ accordianHeading.forEach((head)=>{
 accordianPara.forEach((para)=>{
     para.style.backgroundColor = "#eeeeff";
 });
+```
+
+### Task 2 : Add a new accordian to the end of the list and change the color again
+
+```
+let parentAcc = document.querySelector(".accordian-wrapper");
+
+let newAccordian = document.createElement("div");
+newAccordian.classList.add("accordian");
+
+let accordianHead = document.createElement("h3");
+accordianHead.innerText = "Skills";
+
+let accordianPara = document.createElement("p");
+accordianPara.innerText = "I posses a very good command over the Full Stack Development technologies like MERN which can be seen in my work over the Github."
+accordianPara.style.display = "none";
+
+parentAcc.appendChild(newAccordian);
+newAccordian.appendChild(accordianHead);
+newAccordian.appendChild(accordianPara);
 ```
