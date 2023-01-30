@@ -71,7 +71,7 @@ accordianPara.forEach((para)=>{
 });
 ```
 
-### Task 2 : Add a new accordian to the end of the list and change the color again
+### Task 2 : Add a new accordian named "Skills" to the end of the list and change the color again
 
 ```
 let parentAcc = document.querySelector(".accordian-wrapper");
