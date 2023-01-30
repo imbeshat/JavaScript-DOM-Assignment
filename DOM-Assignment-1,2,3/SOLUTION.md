@@ -33,3 +33,12 @@ let spanElement = document.querySelectorAll(".hero-left-section p span");
 spanElement[1].innerText = "an Employee";
 spanElement[2].innerText = "iNeuron Intelligence Pvt Ltd";
 ```
+
+### Task 4 : Add the image in the avatar
+
+![image](https://user-images.githubusercontent.com/48837703/215529728-a26d78f5-da9d-4a84-b4b7-cced4cb64bb5.png)
+
+```
+let image = document.querySelector(".hero-right-section img");
+image.src = "https://hiteshchoudhary.com/static/a8d73d1aac4c79e9bb689640e6090367/2eaab/person-image.jpg";
+```
