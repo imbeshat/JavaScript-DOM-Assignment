@@ -1,4 +1,4 @@
-## Assignmet 1
+## DOM Assignmet 1
 
 ### Task 1 : Add "Hire Me" in nav bar
 
@@ -52,4 +52,21 @@ let btn = document.querySelector(".hero-right-section-btns");
 let btnSupport = document.createElement("button");
 btnSupport.innerText = "Support Me";
 btn.appendChild(btnSupport);
+```
+
+## DOM Assignment 2
+
+### Task 1 : Change the color of accordion and their paragraphs
+
+![image](https://user-images.githubusercontent.com/48837703/215551263-1b8a8286-6a6e-4b0a-99a1-8d5e3be21419.png)
+
+```
+let accordianHeading = document.querySelectorAll(".accordian h3");
+let accordianPara = document.querySelectorAll(".accordian p");
+accordianHeading.forEach((head)=>{
+    head.style.backgroundColor = "#dadaf8";
+});
+accordianPara.forEach((para)=>{
+    para.style.backgroundColor = "#eeeeff";
+});
 ```
