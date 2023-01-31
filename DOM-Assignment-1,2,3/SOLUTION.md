@@ -73,7 +73,10 @@ accordianPara.forEach((para)=>{
 
 ### Task 2 : Add a new accordian named "Skills" to the end of the list and change the color again
 
+![image](https://user-images.githubusercontent.com/48837703/215706443-20efaf4f-c6c3-4372-81f8-8ecbd2cbc112.png)
+
 ```
+// code for appending new accordian to the end of the list
 let parentAcc = document.querySelector(".accordian-wrapper");
 
 let newAccordian = document.createElement("div");
@@ -89,4 +92,25 @@ accordianPara.style.display = "none";
 parentAcc.appendChild(newAccordian);
 newAccordian.appendChild(accordianHead);
 newAccordian.appendChild(accordianPara);
+
+// code for adding event listener for the new accordian
+let accordianDrop = document.querySelectorAll(".accordian h3");
+accordianDrop[accordianDrop.length-1].addEventListener("click", (element) => {
+    let para = element.target.nextElementSibling;
+    if (para.style.display === "block") {
+        para.style.display = "none";
+    } else {
+        para.style.display = "block";
+    }
+});
+
+// code for changing accordian color
+let accordianHeading = document.querySelectorAll(".accordian h3");
+let accordianPara = document.querySelectorAll(".accordian p");
+accordianHeading.forEach((head)=>{
+    head.style.backgroundColor = "#dadaf8";
+});
+accordianPara.forEach((para)=>{
+    para.style.backgroundColor = "#eeeeff";
+});
 ```
