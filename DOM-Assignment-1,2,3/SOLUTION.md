@@ -114,3 +114,48 @@ accordianPara.forEach((para)=>{
     para.style.backgroundColor = "#eeeeff";
 });
 ```
+
+## DOM Assignment 3
+
+### Task 1 : Add event listenet to the inputs of "User Input Board" and send the data to the inputs of "User Output Board"
+
+![image](https://user-images.githubusercontent.com/48837703/215722534-1a522e56-ae6b-4a70-ba8a-9f2b09d3e6ef.png)
+
+```
+// Selecting input box of User Input Board
+let getName = document.querySelector(".userName");
+let getEmail = document.querySelector(".userEmail");
+let getMessage = document.querySelector(".userMessage");
+
+// Selecting input box of User Output Buard
+let setName = document.querySelector(".enterName");
+let setEmail = document.querySelector(".enterMail");
+let setMessage = document.querySelector(".enterMessage");
+
+// code for Submit button
+let btnSubmit = document.querySelector(".mainRight form button");
+btnSubmit.addEventListener("click",(e)=>{
+    e.preventDefault();
+
+    // Setting the value of User Output Board
+    setName.value = getName.value;
+    setEmail.value = getEmail.value;
+    setMessage.value = getMessage.value;
+});
+
+// code for Reset button
+let btnReset = document.querySelector(".mainLeft form button");
+btnReset.addEventListener("click", (e)=>{
+    e.preventDefault();
+
+    // Clearing the value of User Output Board
+    setName.value = "";
+    setEmail.value = "";
+    setMessage.value = "";
+
+     // Clearing the value of User Input Board
+    getName.value = "";
+    getEmail.value = "";
+    getMessage.value = "";
+});
+```
