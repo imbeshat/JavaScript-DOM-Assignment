@@ -117,7 +117,7 @@ accordianPara.forEach((para)=>{
 
 ## DOM Assignment 3
 
-### Task 1 : Add event listenet to the inputs of "User Input Board" and send the data to the inputs of "User Output Board"
+### Task 1 : Add event listener to the inputs of "User Input Board" and send the data to the inputs of "User Output Board"
 
 ![image](https://user-images.githubusercontent.com/48837703/215722534-1a522e56-ae6b-4a70-ba8a-9f2b09d3e6ef.png)
 
