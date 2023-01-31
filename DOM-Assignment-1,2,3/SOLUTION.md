@@ -153,7 +153,7 @@ btnReset.addEventListener("click", (e)=>{
     setEmail.value = "";
     setMessage.value = "";
 
-     // Clearing the value of User Input Board
+    // Clearing the value of User Input Board
     getName.value = "";
     getEmail.value = "";
     getMessage.value = "";
