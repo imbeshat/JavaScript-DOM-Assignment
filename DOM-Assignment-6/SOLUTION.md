@@ -13,11 +13,24 @@ logoImg.src = "./assets/ineuron-logo.png";
 
 ### Task 2 : Change $4 to "$10" in pricing
 
-![image](https://user-images.githubusercontent.com/48837703/216010422-09c3a292-bb56-4b7b-831d-4a288b46b8a7.png)
+![image](https://user-images.githubusercontent.com/48837703/216015377-6ad75f0c-0f0a-4226-a0c3-2241264d0797.png)
 
 ### Solution
 
 ```
+// code for changing the app price
 let appPrice = document.querySelector(".app_price span");
 appPrice.innerText = "$10";
+
+let socialIcon = document.querySelector(".footer_social");
+
+// creating linkedin div and appendind it
+let linkedinDiv = document.createElement("div");
+linkedinDiv.className = "footer_social_ico";
+socialIcon.appendChild(linkedinDiv);
+
+// creating linkedin icon and appending it
+let linkedinIcon = document.createElement("i");
+linkedinIcon.classList = "fa-brands fa-linkedin";
+linkedinDiv.appendChild(linkedinIcon);
 ```
