@@ -4,6 +4,8 @@
 
 ![image](https://user-images.githubusercontent.com/48837703/215792352-f896fa94-e64f-4c75-838f-01b100d3002c.png)
 
+### Solution
+
 ```
 // code to change the name of the Character 2 to "The Archer"
 let archer = document.querySelectorAll(".archer div");

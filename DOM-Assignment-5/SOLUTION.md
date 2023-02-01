@@ -4,6 +4,8 @@
 
 ![image](https://user-images.githubusercontent.com/48837703/215987271-e965a933-664a-4961-983e-dcae1d3236af.png)
 
+### Solution
+
 ```
 // code for adding a "Pro Subscribtion" button
 let parentDiv = document.querySelectorAll(".nav-center div");

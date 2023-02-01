@@ -28,6 +28,8 @@ newPlaceholder.placeholder = "Search My Project";
 
 ![image](https://user-images.githubusercontent.com/48837703/215527128-a8b9ce1f-9fa5-4f46-8d69-8d7d67b196fd.png)
 
+### Solution
+
 ```
 let spanElement = document.querySelectorAll(".hero-left-section p span");
 spanElement[1].innerText = "an Employee";
@@ -38,6 +40,8 @@ spanElement[2].innerText = "iNeuron Intelligence Pvt Ltd";
 
 ![image](https://user-images.githubusercontent.com/48837703/215529728-a26d78f5-da9d-4a84-b4b7-cced4cb64bb5.png)
 
+### Solution
+
 ```
 let image = document.querySelector(".hero-right-section img");
 image.src = "https://hiteshchoudhary.com/static/a8d73d1aac4c79e9bb689640e6090367/2eaab/person-image.jpg";
@@ -46,6 +50,8 @@ image.src = "https://hiteshchoudhary.com/static/a8d73d1aac4c79e9bb689640e6090367
 ### Task 5 : Add a button named "Support Me" below the avatar
 
 ![image](https://user-images.githubusercontent.com/48837703/215531933-e9e4fc68-9161-4124-8cbf-94dbcf4f782d.png)
+
+### Solution
 
 ```
 let btn = document.querySelector(".hero-right-section-btns");
@@ -59,6 +65,8 @@ btn.appendChild(btnSupport);
 ### Task 1 : Change the color of accordian and their paragraphs
 
 ![image](https://user-images.githubusercontent.com/48837703/215551263-1b8a8286-6a6e-4b0a-99a1-8d5e3be21419.png)
+
+### Solution
 
 ```
 let accordianHeading = document.querySelectorAll(".accordian h3");
@@ -74,6 +82,8 @@ accordianPara.forEach((para)=>{
 ### Task 2 : Add a new accordian named "Skills" to the end of the list and change the color again
 
 ![image](https://user-images.githubusercontent.com/48837703/215706443-20efaf4f-c6c3-4372-81f8-8ecbd2cbc112.png)
+
+### Solution
 
 ```
 // code for appending new accordian to the end of the list
@@ -120,6 +130,8 @@ accordianPara.forEach((para)=>{
 ### Task 1 : Add event listener to the inputs of "User Input Board" and send the data to the inputs of "User Output Board"
 
 ![image](https://user-images.githubusercontent.com/48837703/215722534-1a522e56-ae6b-4a70-ba8a-9f2b09d3e6ef.png)
+
+### Solution
 
 ```
 // Selecting input box of User Input Board
