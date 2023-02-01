@@ -1,4 +1,4 @@
-## DOM Assignment 5
+## DOM Assignment 6
 
 ### Task 1 : Change equalizer logo to iNeuron logo
 
