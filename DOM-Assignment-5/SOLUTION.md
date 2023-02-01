@@ -1,6 +1,6 @@
 ## DOM Assignment 5
 
-### Task 1 : Add a "Pro Subscribtion" button, a new quick link named "CHinese" and a 6th recipe card
+### Task 1 : Add a "Pro Subscribtion" button, a new quick link named "Chinese" and a 6th recipe card
 
 ![image](https://user-images.githubusercontent.com/48837703/215987271-e965a933-664a-4961-983e-dcae1d3236af.png)
 
