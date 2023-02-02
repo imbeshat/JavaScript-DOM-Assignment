@@ -33,3 +33,14 @@ newPara.innerText = "Custom Paragraph. Lorem ipsum paraghrap. We take Lorem ipsu
 scrollNew.appendChild(newPara);
 
 ```
+
+### Task 2 : Remove background image form body
+
+![image](https://user-images.githubusercontent.com/48837703/216287715-a5f07f7c-3def-4578-91c1-74c5765e2f62.png)
+
+### Solution
+
+```
+let body = document.querySelector("body");
+body.style.backgroundImage = "none";
+```
