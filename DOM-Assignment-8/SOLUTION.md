@@ -46,3 +46,21 @@ body.style.backgroundImage = "none";
 ```
 
 ### Task 3 : add event listener to hamburger icon
+
+![image](https://user-images.githubusercontent.com/48837703/216383319-a5b23cc1-c2d5-4535-b9f0-0313d8f5d93f.png)
+
+### Solution
+
+```
+// code for making hamburger icon responsive
+let hamBtn = document.querySelector(".navbar-toggler-icon");
+
+hamBtn.addEventListener("click", () => {
+  let navItems = document.querySelector("#navbarTogglerDemo01");
+  if (navItems.style.display === "block") {
+    navItems.style.display = "none";
+  } else {
+    navItems.style.display = "block";
+  }
+});
+```
