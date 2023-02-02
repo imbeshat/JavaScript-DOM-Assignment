@@ -2,6 +2,10 @@
 
 ### Task 1 : Make the right div "scrollable"
 
+![image](https://user-images.githubusercontent.com/48837703/216286658-c8b88ab6-4a80-4920-ac51-47ae8ea5d13d.png)
+
+### Solution
+
 ```
 // code for making div scrollable
 let scrollNew = document.querySelector("aside");
@@ -27,6 +31,5 @@ let newPara = document.createElement("p");
 newPara.className = "new-p";
 newPara.innerText = "Custom Paragraph. Lorem ipsum paraghrap. We take Lorem ipsum as input.";
 scrollNew.appendChild(newPara);
-
 
 ```
