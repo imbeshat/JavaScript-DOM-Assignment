@@ -44,3 +44,5 @@ scrollNew.appendChild(newPara);
 let body = document.querySelector("body");
 body.style.backgroundImage = "none";
 ```
+
+### Task 3 : add event listener to hamburger icon
